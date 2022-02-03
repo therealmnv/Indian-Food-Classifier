@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+      background-image: url("fastfood.jpg");
+      background-color: rgba(0, 0, 0, 0.7); /* Tint color */
+      background-blend-mode: multiply;
+    }
+    #space1 {
+      height: 350px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 50px;
+      width: 40%;
+      font-family: "Pacifico";
+      margin: auto;
+      color: white;
+    }
+    input[type="text"] {
+      width: 40%;
+      padding: 12px 20px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 15%;
+      background-color: #4caf50;
+      color: white;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    #form1 {
+      margin: auto;
+      width: 40%;
+      padding: 10px;
+    }
+  </style>
+  <head>
+    <title>KrishnaKaCode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="space1"></div>
+    <form action="http://localhost:5000/login" method="post">
+      <label for="lala"><h1>Enter image source:</h1></label>
+      <div id="form1">
+        <input
+          type="text"
+          id="lala"
+          name="nm"
+          placeholder="Image Destination..."
+        />
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

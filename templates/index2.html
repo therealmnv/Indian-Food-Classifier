@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <style>
+    body {
+      background-color: #312374;
+    }
+    #databox {
+      width: 900px;
+      height: 600px;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin: 0 auto;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    #space2 {
+      height: 150px;
+      width: 100%;
+    }
+    h2 {
+      font-size: 50px;
+      font-family: "Fuzzy Bubbles", cursive;
+      color: white;
+      text-align: center;
+    }
+    h3 {
+      font-size: 25px;
+      font-family: "Padauk", sans-serif;
+      color: white;
+    }
+  </style>
+  <head>
+    <title>For loop in Flask</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Pacifico&family=Padauk&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="space2"></div>
+    <div id="databox">
+      <h2>Food Information</h2>
+      <br />
+      <h3>NAME: {{ans[0]}}</h3>
+      <h3>HISTORY: {{ans[1]}}</h3>
+      <h3>CALORIES: {{ans[2]}}</h3>
+      <h3>RECIPE: {{ans[3]}}</h3>
+    </div>
+  </body>
+</html>
